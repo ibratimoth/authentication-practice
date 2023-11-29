@@ -1,0 +1,66 @@
+form{
+    background-color:white;
+    width: 30%;
+    margin: 1rem auto;
+    box-shadow: 1px 2px 8px 2px rgb(197, 188, 173);
+    border-radius: 0.3rem;
+    padding: 0.3rem 0 0.6rem 0;
+}
+form h1{
+    text-align: center;
+}
+form p{
+    text-align: center;
+    background-color: rgb(241, 179, 179);
+    color: rgb(175, 42, 42);
+    width: 85%;
+    padding: 0.17rem 0.2rem 0.17rem  0.2rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    margin: 0.06rem auto;
+}
+form ul{
+    list-style: none;
+}
+form label{
+    display: block;
+   margin: 0.18rem 0 0.18rem -0.9rem;
+}
+form input{
+    width: 96%;
+    margin: 0 0 0.4rem -0.9rem;
+    padding: 0.2rem 0;
+    outline: none;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(174, 152, 202);
+}
+form a{
+    background-color: rgb(126, 34, 212);
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    width: 29%;
+    margin-left: 9rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-radius: 0.3rem;
+}
+form a:hover{
+    background-color: rgb(101, 23, 173);
+}
+.btn button{
+    outline: none;
+    border: none;
+    background-color: white;
+    color: rgb(132, 38, 221);
+    margin-left: 9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 14.5px;
+    padding: 0.3rem 1.3rem 0.3rem 1.2rem;
+}
+.btn button:hover{
+    border: 1px solid rgb(122, 28, 209);
+    border-radius: 0.3rem;
+}

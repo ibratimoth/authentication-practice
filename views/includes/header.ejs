@@ -1,0 +1,18 @@
+<header>
+    <ul class="menu-list">
+        <li><a href="">Home</a></li>
+        <% if (!locals.isAuth) { %>
+            <li><a href="/signupform">Signup</a></li>
+            <li><a href="/login">Login</a></li>
+        <% } %>
+        <% if (locals.isAuth) { %>
+            <li><a href="/admin">Admin</a></li>
+            <li><a href="/profile">profile</a></li>
+            <li class="logout"><form action="/logout" method="post">
+                <button>Logout</button>
+            </form></li>
+        <% } %>
+    </ul>
+</header>
+
+  

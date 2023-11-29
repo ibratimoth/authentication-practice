@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Authentication</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<link rel="stylesheet" type="text/css" href="/login.css">
+    <link rel="stylesheet" type="text/css" href="/shared.css">
+    <link rel="stylesheet" type="text/css" href="/logout.css">
+</head>
+<body>
+    <%- include('includes/header')%>
+    <main>
+        <form action="/login" method="post">
+            <h1>Login</h1>
+            <section>
+                <% if (inputData.hasError) { %>
+                    <p class="message"><%= inputData.message %></p>
+                   <% } %>
+                <ul>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" value="<%= inputData.email %>" required="">
+                    </li>
+                    <li>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" value="<%= inputData.password %>" required="">
+                    </li>
+                </ul>
+                <div class="btn">
+                    <button type="submit">login</button>
+                </div>
+                <div class="link1">
+                    <a href="/signupform">Create user</a>
+                </div>
+            </section>
+        </form>
+    </main>
+</body>
+</html>

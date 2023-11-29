@@ -1,0 +1,55 @@
+form{
+    background-color:white;
+    width: 30%;
+    margin: 1rem auto;
+    box-shadow: 1px 2px 8px 2px rgb(197, 188, 173);
+    border-radius: 0.3rem;
+    padding: 0.3rem 0 0.6rem 0;
+}
+form h1{
+    text-align: center;
+}
+form ul{
+    list-style: none;
+}
+form label{
+    display: block;
+   margin: 0.18rem 0 0.18rem -0.9rem;
+}
+form input{
+    width: 96%;
+    margin: 0 0 0.4rem -0.9rem;
+    padding: 0.2rem 0;
+    outline: none;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(174, 152, 202);
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: blueviolet;
+    color: white;
+    padding: 0.3rem 1.9rem 0.3rem 1.9rem;
+    border-radius: 0.4rem;
+}
+.btn button:hover{
+    background-color: rgb(105, 21, 184);
+}
+.link1{
+    text-align: center;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.link1 a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.link1 a:hover{
+    border: 1px solid blueviolet;
+    padding: 0.27rem 0.67rem 0.27rem 0.67rem;
+    border-radius: 0.4rem;
+}
